@@ -9,7 +9,7 @@ function Sports() {
 
   
   return (
-    <div className='FlexContainer'>
+    <div className='FlexContainer space-btwn'>
       <div>
 
         {data.filter((cat)=>cat.Category==="sport").map((row) =>

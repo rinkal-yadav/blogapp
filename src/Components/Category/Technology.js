@@ -13,7 +13,7 @@ function Technology() {
 
 
   return (
-    <div className='FlexContainer'>
+    <div className='FlexContainer space-btwn'>
       <div>
 
         {data.filter((cat)=>cat.Category==="technology").map((row) =>

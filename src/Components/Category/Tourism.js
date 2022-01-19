@@ -12,7 +12,7 @@ function Tourism() {
 
 
   return (
-    <div className='FlexContainer'>
+    <div className='FlexContainer space-btwn'>
       <div>
 
         {data.filter((cat)=>cat.Category==="tourism").map((row) =>

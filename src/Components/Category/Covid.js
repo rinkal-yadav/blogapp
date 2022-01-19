@@ -13,7 +13,7 @@ function Covid() {
 
 
   return (
-    <div className='FlexContainer'>
+    <div className='FlexContainer space-btwn'>
       <div>
 
         {data.filter((cat)=>cat.Category==="covid").map((row) =>

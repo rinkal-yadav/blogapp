@@ -8,7 +8,7 @@ function World() {
 
 
     return (
-        <div className='FlexContainer'>
+        <div className='FlexContainer space-btwn'>
       <div>
 
         {data.filter((cat)=>cat.Category==="world").map((row) =>

@@ -9,7 +9,7 @@ function Business() {
 
 
   return (
-    <div className='FlexContainer'>
+    <div className='FlexContainer space-btwn'>
       <div>
 
         {data.filter((cat)=>cat.Category==="business").map((row) =>
